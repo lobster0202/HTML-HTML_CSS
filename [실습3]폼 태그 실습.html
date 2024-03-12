@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[실습3]폼 태그 실습</title>
+</head>
+<body>
+    <h1> 회원가입 </h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>필수 입력 사항 </legend>
+            <table>
+                <th width="110px">ID</th> 
+                <td>
+                    <label for="userID1"> 
+                        <input id="userID2" type="text" name="userID1" placeholder="아이디 10글자 이내" >
+                    </label> &nbsp;&nbsp;&nbsp;
+                    <button type="submit">중복 확인</button>
+                </td>
+            </table>
+            <table>
+                <th width="110px">비밀번호</th>
+                <td>
+                    <input type="password" name="userPwd" size="30" placeholder="영문,숫자,특수문자 포함 8자 이상">
+                    <br>
+                </td >
+            </table>
+            <table> 
+                <th width="110px"> 비밀번호 확인 </th>
+                <td>
+                    <input type="password" name="userPwd" size="30"><br>
+                </td>
+            </table>
+            <table>
+                <th width="110px"> Email</th>
+                <td>
+                    <input type="email" name="email" placeholder="이메일을 입력하세요"><br>
+                </td>
+                <td> @ </td>
+                <td>
+                    <select name="siteName">
+                        <option value="naver"> naver.com</option>
+                        <option value="daum"> daum.com</option>
+                        <option value="google"> gmail.com</option>
+                        <option value="etc" selected> 직접입력 </option>
+                    </select>
+                </td>
+            </table>
+
+            <form action="#">
+                <fieldset>
+                    <legend> 추가 정보 </legend>
+
+
+                </fieldset>
+               
+
+
+
+
+               
+
+
+
+
+
+            </form>
+
+
+
+
+        </fieldset>
+
+        
+
+
+    </form>
+    
+</body>
+</html>
